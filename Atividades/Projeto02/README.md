@@ -11,7 +11,7 @@ NPM e a arquitetura com a pasta `/public` vista na aula de 28/09.
 ## Como rodar
 
 ```bash
-cd Projeto02
+cd Atividades/Projeto02
 npm start
 ```
 
