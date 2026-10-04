@@ -11,6 +11,15 @@
 Portal do curso feito em Node.js (módulos `http`, `fs`, `path` e `url`), usando
 NPM e a arquitetura com a pasta `/public` vista na aula de 28/09.
 
+### O que mudou em relação ao Projeto 02
+
+| Projeto 02                                         | Projeto 03                                                     |
+|----------------------------------------------------|----------------------------------------------------------------|
+| Sem NPM, roda com `node app.js`                    | Com NPM (`package.json`), roda com `npm start`                 |
+| `require()` (CommonJS)                             | `import` (ES Modules, `"type": "module"`)                      |
+| Arquivos soltos na raiz do projeto                 | Frontend todo dentro da pasta `public/`                        |
+| Uma rota `if/else` para cada arquivo (até CSS e imagens) | Objeto `routes` para as páginas e os demais arquivos servidos direto da `public/`, com o `content-type` pela extensão |
+
 ## Integrantes
 
 - Alex Rodrigues de Oliveira

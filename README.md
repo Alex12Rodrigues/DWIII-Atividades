@@ -22,7 +22,7 @@ será adicionada dentro de [`Atividades`](Atividades).
 |------------------------------------------------------------------------|------------------------------------------------------------------|-------|
 | [`Projeto 1`](Atividades/Projeto%201)                                  | Projeto 01 - site de apresentação pessoal da dupla               | 3000  |
 | [`Aula 2809`](Atividades/Aula%202809/Projeto_Arquivos)                 | Projeto feito em aula pelo professor (28/09) - pasta `/public`   | 4500  |
-| [`Projeto02`](Atividades/Projeto02)                                    | Projeto 02 - portal da FATEC Zona Sul (NPM + pasta `/public`)    | 2000  |
+| [`Projeto02`](Atividades/Projeto02)                                    | Projeto 02 - portal da FATEC Zona Sul (Node.js puro, sem NPM)    | 2000  |
 | [`Projeto02_Estilizado`](Atividades/Projeto02_Estilizado)              | Projeto 02 - mesma versão, apenas com um CSS mais elaborado      | 2000  |
 | [`Projeto03`](Atividades/Projeto03)                                    | Projeto 03 - Projeto 02 refeito com NPM e a pasta `/public`      | 2000  |
 | [`Projeto03_Estilizado`](Atividades/Projeto03_Estilizado)              | Projeto 03 - mesma versão, apenas com um CSS mais elaborado      | 2000  |
