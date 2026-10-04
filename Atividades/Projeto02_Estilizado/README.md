@@ -1,9 +1,12 @@
 # Projeto 02 - Portal FATEC Zona Sul (versão estilizada)
 
-> **Atenção:** esta pasta é apenas uma **versão estilizada** do projeto, com um
-> CSS mais elaborado. A entrega principal, seguindo somente o que foi visto em
-> aula, está na pasta [`Projeto02`](../Projeto02), com o CSS simples.
-> O servidor, as rotas e o conteúdo são os mesmos nas duas versões.
+> **Atenção:** esta pasta é apenas uma **versão estilizada** do projeto. A
+> entrega principal, feita tentando usar **somente o que foi ensinado em aula**,
+> está na pasta [`Projeto02`](../Projeto02), com o CSS simples.
+>
+> Aqui o servidor, as rotas e o conteúdo são os mesmos, mas o **CSS usa bem mais
+> conhecimentos do que foi visto em aula** (é uma versão extra, só para deixar
+> o visual mais caprichado).
 
 Portal do curso feito em Node.js (módulos `http`, `fs`, `path` e `url`), usando
 NPM e a arquitetura com a pasta `/public` vista na aula de 28/09.
@@ -12,6 +15,23 @@ NPM e a arquitetura com a pasta `/public` vista na aula de 28/09.
 
 - Alex Rodrigues de Oliveira
 - Anna Marina Dantas da Silva
+
+## O que foi pedido
+
+**Entrega:** 28/09/2026 até as 14h49, somente pelo link do repositório no GitHub.
+
+Desenvolver um projeto web completo (frontend e backend) para o site do curso:
+
+| Requisito                                                                  | Onde está                                  |
+|----------------------------------------------------------------------------|--------------------------------------------|
+| Página inicial com apresentação geral do site                              | `/` → `public/index.html`                  |
+| Vestibular: informações, prazos, orientações e link para o site oficial    | `/vestibular` (link para vestibular.fatec.sp.gov.br) |
+| Cursos da FATEC Zona Sul, com uma página detalhada para cada curso         | `/cursos` e `/cursos/ads`, `/dsm`, `/gestao`, `/logistica` |
+| Infraestrutura: instalações da unidade                                     | `/infraestrutura`                          |
+| Eventos: calendário e programação                                          | `/eventos` (dados em `public/dados/eventos.json`) |
+| Quem Somos: apresentação dos integrantes do grupo                          | `/quem-somos`                              |
+| Integração entre backend e frontend                                        | servidor em `app.js` + `fetch()` do JSON   |
+| Servidor rodando obrigatoriamente na **porta 2000**                        | `app.js` (`PORTA = 2000`)                  |
 
 ## Como rodar
 
@@ -45,7 +65,7 @@ com `fetch()`.
 ## Estrutura de pastas
 
 ```
-Projeto02/
+Projeto02_Estilizado/
 ├── app.js               # servidor Node.js (porta 2000)
 ├── package.json         # configuração do NPM (npm start)
 └── public/
